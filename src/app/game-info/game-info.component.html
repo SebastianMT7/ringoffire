@@ -1,0 +1,7 @@
+<mat-card class="card-bottom-info">
+    <mat-card-title>{{ card ? title : 'Please pick a card' }}</mat-card-title>
+    <mat-card-content class="p-l-null">
+      {{ card ? description : 'Please click on the stack to select the next card.' }}
+      <!-- schnelle if else Abfrage (if)card (then)description :(else) Please click..-->
+    </mat-card-content>
+  </mat-card>
